@@ -47,8 +47,8 @@ const auth = getAuth(firebaseApp)
 
 export default defineComponent({
   setup() {
-    const email = ref('')
-    const password = ref('')
+    const email = ref('user.example@mail.com')
+    const password = ref('12345678')
     const msg = ref('')
 
     const authStore = useAuthStore()
